@@ -36,9 +36,9 @@
     },
     {
       "id": "orikli_rulet",
-      "name": "Orikli Jem rulet ",
+      "name": "Apelsin Jem rulet ",
       "category": "rulet",
-      "description": "Orikli krem va oq shokolad naqshi",
+      "description": "Apelsin krem va oq shokolad naqshi",
       "image": "orikli_rulet.jpg",
       "price": {
         "1": 37000,
