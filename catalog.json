@@ -36,9 +36,9 @@
     },
     {
       "id": "orikli_rulet",
-      "name": "Jem rulet 2",
+      "name": "Orikli Jem rulet ",
       "category": "rulet",
-      "description": "Qaymoqli krem va oq shokolad naqshi",
+      "description": "Orikli krem va oq shokolad naqshi",
       "image": "orikli_rulet.jpg",
       "price": {
         "1": 37000,
@@ -47,9 +47,9 @@
     },
     {
       "id": "shokoladli_rulet",
-      "name": "Jem rulet",
+      "name": " Klubnikali Jem rulet",
       "category": "rulet",
-      "description": "Biskvit rulet, krem va murabbo, shokolad naqshi bilan",
+      "description": "Biskvit rulet, krem va klubnikali murabbo, shokolad naqshi bilan",
       "image": "shokoladli_rulet.jpg",
       "price": {
         "1": 37000,
