@@ -1,0 +1,214 @@
+{
+  "min_boxes": 1,
+  "box_sizes_kg": [
+    1,
+    2
+  ],
+  "categories": [
+    {
+      "id": "rulet",
+      "name": "Ruletlar"
+    },
+    {
+      "id": "pirojniy",
+      "name": "Pirojniylar"
+    },
+    {
+      "id": "pahlava",
+      "name": "Pahlava"
+    },
+    {
+      "id": "pishiriq",
+      "name": "Pishiriqlar"
+    }
+  ],
+  "products": [
+    {
+      "id": "asalli_rulet",
+      "name": "Medovik rulet",
+      "category": "rulet",
+      "description": "Asalli biskvit, yumshoq krem, ustidan asal qirindisi",
+      "image": "asalli_rulet.jpg",
+      "price": {
+        "1": 34000,
+        "2": 68000
+      }
+    },
+    {
+      "id": "orikli_rulet",
+      "name": "Jem rulet 2",
+      "category": "rulet",
+      "description": "Qaymoqli krem va oq shokolad naqshi",
+      "image": "orikli_rulet.jpg",
+      "price": {
+        "1": 37000,
+        "2": 74000
+      }
+    },
+    {
+      "id": "shokoladli_rulet",
+      "name": "Jem rulet",
+      "category": "rulet",
+      "description": "Biskvit rulet, krem va murabbo, shokolad naqshi bilan",
+      "image": "shokoladli_rulet.jpg",
+      "price": {
+        "1": 37000,
+        "2": 74000
+      }
+    },
+    {
+      "id": "rulet_assorti",
+      "name": "Yojik rulet",
+      "category": "rulet",
+      "description": "Oq va shokoladli ruletlar bir qutida",
+      "image": "rulet_assorti.jpg",
+      "price": {
+        "1": 34000,
+        "2": 68000
+      }
+    },
+    {
+      "id": "rulet_assorti_chiziqli",
+      "name": "Rulet mini",
+      "category": "rulet",
+      "description": "Shokoladli va vanilli ruletlar, ikki xil glazur",
+      "image": "rulet_assorti_chiziqli.jpg",
+      "price": {
+        "1": 34000,
+        "2": 68000
+      }
+    },
+    {
+      "id": "kunjutli_rulet",
+      "name": "Kodya",
+      "category": "rulet",
+      "description": "Xamirli rulet, ichida yong'oqli to'ldirma, ustida kunjut",
+      "image": "kunjutli_rulet.jpg",
+      "price": {
+        "1": 34000,
+        "2": 68000
+      }
+    },
+    {
+      "id": "mini_tort",
+      "name": "Ulitka",
+      "category": "pirojniy",
+      "description": "Shokoladli biskvit, oq glazur va shokolad naqshi",
+      "image": "mini_tort.jpg",
+      "price": {
+        "1": 41000,
+        "2": 82000
+      }
+    },
+    {
+      "id": "medovik",
+      "name": "Medovik",
+      "category": "pirojniy",
+      "description": "Asalli qatlamli pirojniy, shokolad naqshi bilan",
+      "image": "medovik.jpg",
+      "price": {
+        "1": 32000,
+        "2": 64000
+      }
+    },
+    {
+      "id": "karamelli_pirojniy",
+      "name": "Avganskiy",
+      "category": "pirojniy",
+      "description": "Kremli pirojniy, karamel va yong'oq bilan",
+      "image": "karamelli_pirojniy.jpg",
+      "price": {
+        "1": 39000,
+        "2": 78000
+      }
+    },
+    {
+      "id": "shokoladli_pirojniy",
+      "name": "Snikers",
+      "category": "pirojniy",
+      "description": "Shokolad glazurli pirojniy, oq naqsh bilan",
+      "image": "shokoladli_pirojniy.jpg",
+      "price": {
+        "1": 37000,
+        "2": 74000
+      }
+    },
+    {
+      "id": "yongoqli_pirojniy",
+      "name": "Muraveynik",
+      "category": "pirojniy",
+      "description": "Yong'oqli pirojniy, shokolad naqshi bilan",
+      "image": "yongoqli_pirojniy.jpg",
+      "price": {
+        "1": 34000,
+        "2": 68000
+      }
+    },
+    {
+      "id": "kokosli_ekler",
+      "name": "Zavarnoy",
+      "category": "pirojniy",
+      "description": "Kremli ekler, oq glazur va kokos qirindisi",
+      "image": "kokosli_ekler.jpg",
+      "price": {
+        "1": 37000,
+        "2": 74000
+      }
+    },
+    {
+      "id": "pahlava",
+      "name": "Pahlava",
+      "category": "pahlava",
+      "description": "Qatlamli xamir, asal va yong'oq",
+      "image": "pahlava.jpg",
+      "price": {
+        "1": 33000,
+        "2": 66000
+      }
+    },
+    {
+      "id": "kruassan",
+      "name": "Kruassan",
+      "category": "pishiriq",
+      "description": "Yumshoq kruassan, ustida mak",
+      "image": "kruassan.jpg",
+      "price": {
+        "1": null,
+        "2": null
+      }
+    },
+    {
+      "id": "rogalik",
+      "name": "Rogalik",
+      "category": "pishiriq",
+      "description": "Mayda rogaliklar, kunjut va mak bilan",
+      "image": "rogalik.jpg",
+      "price": {
+        "1": null,
+        "2": null
+      }
+    },
+    {
+      "id": "uchburchak",
+      "name": "Somsa",
+      "category": "pishiriq",
+      "description": "Xamirli uchburchak pishiriq, ustida mak",
+      "image": "uchburchak.jpg",
+      "price": {
+        "1": 27000,
+        "2": 54000
+      }
+    },
+    {
+      "id": "trubochka",
+      "name": "Murabboli trubochka",
+      "category": "pishiriq",
+      "description": "Ichida murabbo, oq glazur va kokos qirindisi",
+      "image": "trubochka.jpg",
+      "price": {
+        "1": 34000,
+        "2": 68000
+      }
+    }
+  ]
+}

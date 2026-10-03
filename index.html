@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Aziza Bakery — ulgurji buyurtma</title>
+<script src="https://telegram.org/js/telegram-web-app.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar"><div class="wrap">
+  <span>📍 Urganch</span><span>🕗 Ish vaqti: 8:30–20:00</span><span>📦 Ulgurji buyurtmalar</span>
+  <a class="phone" href="tel:+998991690777">+998 99 169 07 77</a>
+</div></div>
+
+<header class="header"><div class="wrap">
+  <a class="logo" href="#top" aria-label="Aziza Bakery"><img src="logo.png" alt="Aziza Bakery" width="384" height="127"></a>
+  <nav class="nav" aria-label="Bo'limlar">
+    <a href="#katalog">Katalog</a><a href="#qanday">Qanday buyurtma beriladi</a><a href="#manzil">Manzil</a>
+  </nav>
+  <button class="btn btn-orange" type="button" data-open>🛍 Buyurtma <span class="count" id="headCount"></span></button>
+</div></header>
+
+<div class="ticker" aria-hidden="true"><div class="ticker-track" id="ticker"></div></div>
+
+<section class="hero" id="top"><div class="wrap">
+  <div>
+    <span class="tag">AZIZA BAKERY · 2006-YILDAN BERI</span>
+    <h1>Mehr bilan tayyorlangan shirinliklar</h1>
+    <p>Ruletlar, pirojniylar, pahlava va pishiriqlar 1 kg va 2 kg qutilarda. Omborlar va do'konlar uchun ulgurji buyurtma: kerakli qutilar sonini tanlang, qolganini menejerimiz kelishadi.</p>
+    <div class="hero-actions">
+      <a class="btn btn-orange" href="#katalog">Qutilarni tanlash</a>
+      <a class="btn btn-outline" href="tel:+998991690777">Qo'ng'iroq qilish</a>
+    </div>
+    <ul class="hero-points"><li>1 kg va 2 kg qutilar</li><li>Ulgurji hajmlar</li><li>O'z sexmizda tayyorlanadi</li></ul>
+  </div>
+  <figure class="mascot" style="margin:0 auto">
+    <img src="mascot.png" alt="Aziza — qutidan qarab turgan oshpaz qiz" width="640" height="640">
+    <div class="badge"><i>♥</i><div><b>Siz izlagan ta'm</b><small>2006-yildan beri</small></div></div>
+  </figure>
+</div></section>
+
+<section class="section" id="katalog"><div class="wrap">
+  <div class="section-head">
+    <div><h2>Katalog</h2><p>Har bir mahsulot uchun 1 kg va 2 kg qutilar sonini kiriting. Narxlar bir quti uchun.</p></div>
+    <div class="chips" id="chips" role="group" aria-label="Saralash"></div>
+  </div>
+  <div class="catalog-layout">
+    <div class="products" id="products"><div class="state">Katalog yuklanmoqda…</div></div>
+    <aside class="summary" aria-label="Buyurtma">
+      <h3>Buyurtmangiz</h3>
+      <div data-summary></div>
+      <button class="btn btn-plum" type="button" data-open data-go>Buyurtma berish</button>
+    </aside>
+  </div>
+</div></section>
+
+<section class="section" id="qanday" style="padding-top:0"><div class="wrap">
+  <div class="section-head"><h2>Qanday buyurtma beriladi?</h2></div>
+  <div class="steps-grid">
+    <ol class="steps">
+      <li><b>Qutilarni tanlang</b><span>Har bir mahsulot uchun 1 kg va 2 kg qutilar sonini kiriting.</span></li>
+      <li><b>Sana va do'kon nomini yozing</b><span>Telefon va manzil ixtiyoriy.</span></li>
+      <li><b>Menejer tasdiqlaydi</b><span>Buyurtmani tekshirib, narx va yetkazish vaqtini siz bilan kelishadi.</span></li>
+    </ol>
+    <div class="contact" id="manzil">
+      <h3>Bizning manzil</h3>
+      <p>📍 Urganch sh., Cho'lobod MFY, Gulzamon ko'chasi, 77-uy</p>
+      <p>🕗 Ish vaqti: 8:30–20:00</p>
+      <p>📞 +998 99 169 07 77</p>
+      <a class="btn btn-orange" href="tel:+998991690777">Qo'ng'iroq qilish</a>
+    </div>
+  </div>
+</div></section>
+
+<footer><div class="wrap">
+  <span>«Mehr bilan tayyorlangan shirinliklar»</span>
+  <span>© 2006–2026 Aziza bakery</span>
+</div></footer>
+
+<div class="bar">
+  <div class="info"><b id="barMain">Qutilar tanlanmagan</b><small id="barSub"></small></div>
+  <button class="btn btn-orange" type="button" data-open data-go>Davom etish</button>
+</div>
+
+<div class="sheet" id="sheet" hidden>
+  <div class="panel" role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+    <div class="panel-head"><h2 id="sheetTitle">Buyurtma</h2><button class="x" type="button" id="closeSheet" aria-label="Yopish">✕</button></div>
+    <div data-summary></div>
+    <form class="form" id="orderForm" novalidate>
+      <div class="field" data-req><label for="f-date">Qachonga kerak *</label><input id="f-date" name="date" type="date"><div class="msg">Sanani tanlang</div></div>
+      <div class="saved" id="savedCard" hidden>
+        <div><b>⭐ Doimiy mijoz</b><p id="savedText"></p></div>
+        <button class="link" type="button" id="editSaved">O'zgartirish</button>
+      </div>
+      <div class="customer-fields" id="customerFields">
+        <div class="field" data-req><label for="f-company">Do'kon yoki ombor nomi *</label><input id="f-company" name="company" maxlength="120" autocomplete="organization"><div class="msg">Do'kon yoki ombor nomini yozing</div></div>
+        <p class="optional">Quyidagilar ixtiyoriy</p>
+        <div class="two">
+          <div class="field"><label for="f-person">Ismingiz</label><input id="f-person" name="person" maxlength="80" autocomplete="name"></div>
+          <div class="field"><label for="f-phone">Telefon</label><input id="f-phone" name="phone" type="tel" maxlength="30" placeholder="+998 __ ___ __ __" autocomplete="tel" inputmode="tel"><div class="msg">Telefon raqamini to'liq yozing yoki bo'sh qoldiring</div></div>
+        </div>
+        <div class="field"><label for="f-address">Yetkazish manzili</label><input id="f-address" name="address" maxlength="200" autocomplete="street-address"></div>
+      </div>
+      <label class="check"><input type="checkbox" id="f-remember" name="remember"><span><b>Doimiy mijozman</b> — ma'lumotlarimni saqlab qo'ying, keyingi safar qayta yozmayman</span></label>
+      <button class="btn btn-orange" type="submit" id="sendBtn">Buyurtmani yuborish</button>
+      <p class="note">Buyurtma yuborilgach, menejerimiz narx va yetkazish vaqtini tasdiqlash uchun bog'lanadi.</p>
+      <div class="sent" id="notTg" hidden>Buyurtma faqat Telegram bot orqali yuboriladi. Botda «🛒 Buyurtma berish» tugmasini bosing.</div>
+    </form>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
